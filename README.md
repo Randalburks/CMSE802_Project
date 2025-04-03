@@ -51,3 +51,10 @@ requirements.txt - List of package dependencies
 ---
 
 This structure and setup supports modular development and makes it easier to test, analyze, and explain the results.
+
+
+
+
+Dataset: Women's Clothing E-Commerce Reviews  
+Source: https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews  
+
