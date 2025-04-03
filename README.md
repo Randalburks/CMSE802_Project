@@ -21,17 +21,24 @@ Using the **Women's Clothing E-Commerce Reviews** dataset (from Kaggle):
 - Key columns:
   - `Clothing ID`, `Age`, `Rating`, `Recommended`, `Positive Feedback Count`, `Review Text`, `Division Name`, `Department Name`, `Class Name`
 
-## 📁 Project Structure
+## Project Structure
 
 
 
 /src/        - Source code modules and Python scripts (.py files)
+
 /notebooks/  - Jupyter notebooks for analysis and visualization
+
 /data/       - Raw and processed data files or data source documentation
+
 /tests/      - Unit tests for validating implementation
+
 /docs/       - Supplementary documentation or reports
+
 /results/    - Model outputs, figures, and saved checkpoints
+
 README.md    - Overview and instructions for the repository
+
 requirements.txt - List of package dependencies
 
 ## Code Plan
