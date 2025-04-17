@@ -3,57 +3,63 @@
 **By Randal Burks**  
 *burksran@msu.edu*
 
-## Overview  
-This project enhances targeted marketing using **clustering** and **sentiment analysis** to group customers based on their behavior, preferences, and values. Traditional methods rely too much on age or gender — this approach goes deeper using actual reviews and behavior.
 
-## Problem Statement  
-Current segmentation methods, like rule-based grouping or basic K-means clustering, often miss nuanced insights. They don’t capture niche customer groups or emotional motivations.  
-This project improves segmentation by combining:
-- **K-means + DBSCAN** for flexible customer clustering  
-- **NLP sentiment analysis** on review text to detect customer values and attitudes
+# Sentiment Classification and Topic Modeling of Women's Clothing Reviews Using TF-IDF, Logistic Regression, and LDA
 
-Goal: Uncover deeper psychographic profiles and support more personalized marketing strategies.
+This project uses natural language processing and unsupervised learning techniques to extract meaningful insights from customer reviews in a women’s clothing e-commerce dataset.
 
-## Dataset  
-Using the **Women's Clothing E-Commerce Reviews** dataset (from Kaggle):  
-- 23,486 customer reviews in CSV format  
-- Includes both structured data and unstructured review text  
-- Key columns:
-  - `Clothing ID`, `Age`, `Rating`, `Recommended`, `Positive Feedback Count`, `Review Text`, `Division Name`, `Department Name`, `Class Name`
+--
 
-## Project Structure
+## Problem Statement
 
+Customer reviews are a rich source of feedback for e-commerce platforms. However, manually analyzing thousands of text reviews is time-consuming and inconsistent. This project aims to automate sentiment classification and explore natural groupings and topics in review data using machine learning techniques. By understanding the tone and themes of customer feedback, businesses can make informed decisions to improve products, marketing, and customer satisfaction.
 
+--
 
-/src/        - Source code modules and Python scripts (.py files)
+## Project Overview
 
-/notebooks/  - Jupyter notebooks for analysis and visualization
+This project analyzes a dataset of 23,486 customer reviews from a women's clothing e-commerce platform in CSV format. The work is divided into the following stages:
 
-/data/       - Raw and processed data files or data source documentation
+1. **Data Cleaning and Preprocessing**  
+   - Removed missing or null review texts  
+   - Created a new "Sentiment" column by mapping numerical ratings to `Positive`, `Neutral`, and `Negative` categories  
 
-/tests/      - Unit tests for validating implementation
+2. **Sentiment Classification**  
+   - Applied logistic regression to classify review sentiment using TF-IDF vectorization  
+   - Evaluated performance with accuracy and a classification report  
 
-/docs/       - Supplementary documentation or reports
+3. **Clustering and Topic Modeling**  
+   - Used KMeans and PCA to explore customer groupings  
+   - Applied Latent Dirichlet Allocation (LDA) to extract topics from the reviews  
+   - Evaluated clustering with silhouette score and Davies-Bouldin index  
 
-/results/    - Model outputs, figures, and saved checkpoints
+4. **Visualization**  
+   - Plotted sentiment distributions and clusters  
+   - Displayed topic keywords and review groupings based on content themes  
 
-README.md    - Overview and instructions for the repository
+5. **Insights**  
+   - Identified relationships between sentiment, review text, and customer experience  
+   - Highlighted actionable feedback and key topics expressed by customers  
 
-requirements.txt - List of package dependencies
+The analysis was conducted using Python and Jupyter Notebooks, leveraging libraries such as `scikit-learn`, `nltk`, `pandas`, `matplotlib`, and `seaborn`.
+
+--
+
+## Structure
+
+The `/src/` folder contains source code modules and Python scripts (.py files). The `/notebooks/` folder holds the Jupyter notebooks used for analysis and visualization. The `/data/` folder includes raw and processed data files or data source documentation. The `/tests/` folder is for unit tests to validate the implementation. The `/docs/` folder contains supplementary documentation or reports. The `/results/` folder includes model outputs, figures, and saved checkpoints. `README.md` provides an overview and instructions for the repository.
+
+--
 
 ## How to Run
 
-1. Clone this repo
-2. Run `pip install -r requirements.txt`
+1. Clone this repo  
+2. Run `pip install -r requirements.txt`  
 3. Open and run `/notebooks/Sentiment Code.ipynb`
 
----
+--
 
-This structure and setup supports modular development and makes it easier to test, analyze, and explain the results.
+## Dataset
 
-
-
-
-Dataset: Women's Clothing E-Commerce Reviews  
-Source: https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews  
-
+The dataset contains 23,486 customer reviews in CSV format.  
+Source: [Kaggle Dataset](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
