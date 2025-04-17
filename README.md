@@ -41,12 +41,11 @@ README.md    - Overview and instructions for the repository
 
 requirements.txt - List of package dependencies
 
-## Code Plan
-- Implement clustering and sentiment analysis in `.py` files inside `/src/`
-- Use notebooks in `/notebooks/` to visualize clusters and results
-- Use the `/tests/` folder to write basic unit tests (e.g. for text cleaning or model predictions)
-- Include docstrings and comments to make code clear
-- Keep data handling, modeling, and visualization separated for clarity
+## How to Run
+
+1. Clone this repo
+2. Run `pip install -r requirements.txt`
+3. Open and run `/notebooks/Sentiment Code.ipynb`
 
 ---
 
