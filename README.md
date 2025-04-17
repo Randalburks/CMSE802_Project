@@ -45,7 +45,7 @@ The analysis was conducted using Python and Jupyter Notebooks, leveraging librar
 ## Structure
 
 - `/src/`: Source code modules and Python scripts (.py files)  
-- `/notebooks/`: Jupyter notebooks for analysis and visualization  
+- `/notebook/`: Jupyter notebooks for analysis and visualization  
 - `/data/`: Raw and processed data files or data source documentation   
 - `/docs/`: Supplementary documentation or reports  
 - `/results/`: Model outputs, figures, and saved checkpoints  
