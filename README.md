@@ -8,13 +8,11 @@
 
 This project uses natural language processing and unsupervised learning techniques to extract meaningful insights from customer reviews in a women’s clothing e-commerce dataset.
 
---
 
 ## Problem Statement
 
 Customer reviews are a rich source of feedback for e-commerce platforms. However, manually analyzing thousands of text reviews is time-consuming and inconsistent. This project aims to automate sentiment classification and explore natural groupings and topics in review data using machine learning techniques. By understanding the tone and themes of customer feedback, businesses can make informed decisions to improve products, marketing, and customer satisfaction.
 
---
 
 ## Project Overview
 
@@ -43,13 +41,11 @@ This project analyzes a dataset of 23,486 customer reviews from a women's clothi
 
 The analysis was conducted using Python and Jupyter Notebooks, leveraging libraries such as `scikit-learn`, `nltk`, `pandas`, `matplotlib`, and `seaborn`.
 
---
 
 ## Structure
 
 The `/src/` folder contains source code modules and Python scripts (.py files). The `/notebooks/` folder holds the Jupyter notebooks used for analysis and visualization. The `/data/` folder includes raw and processed data files or data source documentation. The `/tests/` folder is for unit tests to validate the implementation. The `/docs/` folder contains supplementary documentation or reports. The `/results/` folder includes model outputs, figures, and saved checkpoints. `README.md` provides an overview and instructions for the repository.
 
---
 
 ## How to Run
 
@@ -57,7 +53,6 @@ The `/src/` folder contains source code modules and Python scripts (.py files). 
 2. Run `pip install -r requirements.txt`  
 3. Open and run `/notebooks/Sentiment Code.ipynb`
 
---
 
 ## Dataset
 
