@@ -44,7 +44,12 @@ The analysis was conducted using Python and Jupyter Notebooks, leveraging librar
 
 ## Structure
 
-The `/src/` folder contains source code modules and Python scripts (.py files). The `/notebooks/` folder holds the Jupyter notebooks used for analysis and visualization. The `/data/` folder includes raw and processed data files or data source documentation. The `/tests/` folder is for unit tests to validate the implementation. The `/docs/` folder contains supplementary documentation or reports. The `/results/` folder includes model outputs, figures, and saved checkpoints. `README.md` provides an overview and instructions for the repository.
+- `/src/`: Source code modules and Python scripts (.py files)  
+- `/notebooks/`: Jupyter notebooks for analysis and visualization  
+- `/data/`: Raw and processed data files or data source documentation   
+- `/docs/`: Supplementary documentation or reports  
+- `/results/`: Model outputs, figures, and saved checkpoints  
+- `README.md`: Overview and instructions for the repository
 
 
 ## How to Run
