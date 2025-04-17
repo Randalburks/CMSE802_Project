@@ -1,4 +1,4 @@
-# CMSE802_Project
+# CMSE802 Project
 # Customer Segmentation and Psychographic Profiling  
 **By Randal Burks**  
 *burksran@msu.edu*
